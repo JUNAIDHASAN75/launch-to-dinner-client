@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <div className='bg-black bg-opacity-75 text-white p-4'>
             <Container className='d-lg-flex justify-content-between align-items-start mt-5 g-5'>
@@ -19,6 +20,10 @@ const Footer = () => {
                     
                 </div>
             </Container>
+                <div className='w-100 me-5 text-center bg-'>
+                    <p className='ps-lg-5 ms-lg-5'>© {currentYear} Copyright: Launch To Dinner </p>
+                    
+                </div>
         </div>
     );
 };
