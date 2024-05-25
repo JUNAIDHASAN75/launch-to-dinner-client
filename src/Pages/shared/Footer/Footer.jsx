@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ const Footer = () => {
                 <div className='w-100 me-5'>
                     
                     <h2 className='ps-lg-5 ms-lg-5'>Contct Us </h2> 
-                    <p className='ps-lg-5 ms-lg-5'>Facebook </p>
+                    <p className='ps-lg-5 ms-lg-5'><FaFacebookSquare /> </p>
                     <p className='ps-lg-5 ms-lg-5'>Twitter </p>
                     <p className='ps-lg-5 ms-lg-5'>Instagram </p>
                     
