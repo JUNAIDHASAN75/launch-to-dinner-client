@@ -1,0 +1,5 @@
+- NAVBAR
+- BANNER 
+- CHEF
+- FOOTER
+ - LIVE SITE LINK https://food-recipe-assignment-10.web.app/

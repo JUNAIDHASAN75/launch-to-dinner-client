@@ -1,0 +1,21 @@
+.tooltiptext{
+  display: none;
+  position: absolute;
+  bottom: -15px;
+  right: 10%;
+  color: white;
+  background-color: rgba(23, 20, 20, 0.672);
+  padding: 3px 10px;
+}
+.userimg{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%; 
+    position: relative; 
+  }
+
+    
+  .userimg:hover + .tooltiptext {
+    display: inline;
+    
+  }  
